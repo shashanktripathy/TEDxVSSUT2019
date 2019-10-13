@@ -1464,7 +1464,7 @@ filter: invert(90%);
 
 @media (max-width: 991px) {
   #header {
-    background: rgba(6, 12, 34, 0.98);
+    background: rgba(225,225,225,0.5);
     height: 70px;
     padding: 15px 0;
     transition: all 0.5s;
