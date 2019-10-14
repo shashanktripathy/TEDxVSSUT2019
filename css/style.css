@@ -1059,6 +1059,7 @@ filter: invert(90%);
 #faq #faq-list {
   padding: 0;
   list-style: none;
+  color : rgba(255,255,255,0.6);        
 }
 
 #faq #faq-list li {
