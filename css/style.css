@@ -318,11 +318,13 @@ h6 {
 
 .nav-menu li.buy-tickets a:hover {
   background: none;
+  color: black;
 }
 
 .nav-menu li.buy-tickets:hover a:before,
 .nav-menu li.buy-tickets.menu-active a:before {
   visibility: hidden;
+  color: black;
 }
 
 .nav-menu ul {
@@ -1539,3 +1541,32 @@ span {
 }
 
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ed2e38; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ed2e38; 
+}
+
+#map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
